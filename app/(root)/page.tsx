@@ -25,7 +25,7 @@ export default function Home() {
             alt="hero"
             width={1000}
             height={1000}
-            className="max-h-[65vh] object-contain object-right 2xl:max-h-[70vh]"
+            className="max-h-[65vh] object-contain object-center 2xl:max-h-[70vh]"
           />
         </div>
       </section>
