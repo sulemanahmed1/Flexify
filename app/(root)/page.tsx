@@ -26,7 +26,7 @@ export default function Home() {
             alt="hero"
             width={800}
             height={800}
-            className="max-h-[600px] object-contain object-center xl:object-right"
+            className="max-h-[600px] object-contain object-center 2xl:object-right"
           />
           </div>
         </div>
