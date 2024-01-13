@@ -20,17 +20,18 @@ export default function Home() {
               </Link>
             </Button>
           </div>
-          <div className='mb-24 mx-auto md:w-180 lg:mb-0 lg:w-1/2'>
-          <Image
-            src="/assets/images/hero.jpg"
-            alt="hero"
-            width={800}
-            height={800}
-            className="max-h-[600px] object-contain object-center 2xl:object-right"
-          />
+          <div className='mx-auto lg:w-1/2'>
+          <img className='float-right max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg' src="/assets/images/hero.jpg"   alt="hero-image"/>
           </div>
         </div>
       </section>
     </>
   )
 }
+/**  <Image
+            src="/assets/images/hero.jpg"
+            alt="hero"
+            width={800}
+            height={800}
+            className="max-h-[600px] object-contain object-center xl:object-right"
+          /> */
