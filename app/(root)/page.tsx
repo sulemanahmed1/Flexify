@@ -24,7 +24,7 @@ export default function Home() {
             <Image
               src="/assets/images/hero.png"
               alt="hero"
-              className='object-contain object-center  xl:object-right  max-h-[80vh]  2xl:max-h-[80vh]'
+              className='object-contain object-center  2xl:object-right  max-h-[80vh]  2xl:max-h-[80vh]'
               width={800}
               height={1000}
             />
