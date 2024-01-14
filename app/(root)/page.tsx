@@ -28,7 +28,6 @@ export default function Home() {
               width={800}
               height={1000}
             />
-
           </div>
         </div>
       </section>
