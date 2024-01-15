@@ -6,9 +6,9 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <section className="py-5 md:py-10 bg-[#0B2033]">
+      <section className="py-5   mx-auto bg-[#0B2033]">
         <div className="container flex flex-col-reverse mx-auto p-6 lg:flex-row">
-          <div className="flex flex-col space-y-10 mb-44 lg:mt-16 lg:w-1/2 xl:mb-52">
+          <div className="flex flex-col space-y-10 mb-44 lg:mt-4 lg:w-1/2 xl:mb-52">
             <h1 className="text-5xl font-bold text-center lg:text-6xl lg:max-w-md lg:text-left text-[#7B5D47]">Find din næste freelancer</h1>
             <p className="text-2xl text-center lg:max-w-md lg:text-left text-[#957B71] ">Talenter der skaber værdi for
               dit projekt, vælg blandt en bred vifte af kompetencer</p>
@@ -20,11 +20,11 @@ export default function Home() {
               </Link>
             </Button>
           </div>
-          <div className='  mx-auto lg:w-1/2   '>
+          <div className='hidden md:block  mx-auto mb-10 lg:w-1/2   '>
             <Image
               src="/assets/images/hero.png"
               alt="hero"
-              className='object-contain object-center  2xl:object-right  max-h-[80vh]  2xl:max-h-[80vh]'
+              className='object-contain object-center max-h-[40vh] lg:max-h-[65vh]'
               width={800}
               height={1000}
             />
